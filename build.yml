@@ -1,0 +1,27 @@
+---
+sdkversion: 5.0.0
+name: barcode5
+version: '1.0'
+vendor: rhomobile
+build: debug
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator7.0
+  provisionprofile: ''
+  codesignidentity: iPhone Developer
+  entitlements: ''
+  BundleIdentifier: com.rhomobile.barcode5
+  BundleURLScheme: barcode5
+wp8:
+  productid: 159e1e70-0fb1-0132-831c-6003089b9d06
+android:
+  manifest_template: AndroidManifest.erb
+  version: 2.3.3
+wm: ''
+extensions:
+- rhoconnect-client
+- barcode
+app_type: rhoelements
+capabilities:
+- camera
